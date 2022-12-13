@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&family=Roboto:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #181d29;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0;
+  text-align: center;
+}
+
+.nav {
+  background-color: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 1rem 4rem;
+}
+
+.nav .site-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  font-size: 14px;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.nav li.active {
+  /* background-color: #555; */
+  font-weight: 700;
+}
+
+.nav li:hover {
+  font-weight: 700;
+  /* background-color: #777; */
+}
+.nav a:hover {
+  font-weight: 700;
+  /* background-color: #777; */
+}
+
+.yt-link {
+  padding: 0.1rem 0.7rem;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 7px;
+  font-weight: 700;
+  border: none;
+}
+.yt-link i {
+  margin-right: 0.4rem;
+}
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* home-css  */
+.header {
+  background-image: url("../media/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.header-div {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-content {
+  padding: 10px 10px 10px 100px;
+  text-align: left;
+}
+.header-content h1 {
+  font-size: 58px;
+  line-height: 120%;
+}
+.gradient-text {
+  background-clip: border-box;
+  background: -webkit-linear-gradient(45deg, #fd6584, #9544f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+.header-button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  cursor: pointer;
+  margin-top: 50px;
+  border: none;
+}
+.header-button:hover {
+  opacity: 0.6;
+}
+.github-button {
+  background-color: #9544f4;
+  color: #ffffff;
+}
+.discord-button {
+  background-color: #e6e6e6;
+  margin-left: 20px;
+}
+.discord-button .fa-discord {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.header-image {
+  padding: 60px 10px;
+}
+.header-image img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+.vision {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.vision-image {
+  z-index: 1;
+  position: relative;
+}
+.vision-image img{
+  width: 85%;
+  height: auto;
+  position: absolute;
+  left: 150px;
+}
+.vision-div{
+  position: relative;
+}
+.our-vision {
+  margin-top: 80px;
+  width: 90%;
+  border: 1px solid transparent;
+  padding: 10px 30px 80px 50px;
+  border-radius: 30px;
+  background: linear-gradient(
+    117.74deg,
+    rgba(230, 230, 230, 0.3) 0%,
+    rgba(230, 230, 230, 0.1) 100%
+  );
+  box-shadow: 0px 4px 24px -1px rgba(38, 50, 56, 0.3);
+  backdrop-filter: blur(8px);
+  text-align: left;
+  position: absolute;
+  right: 120px;
+}
+.our-vision h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #e6e6e6;
+  padding-left: 60px;
+}
+.bullet-points {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  gap: 5%;
+}
+.bullet {
+  text-align: right;
+}
+.bullet .fa-circle {
+  font-size: 35px;
+  margin-top: 20px;
+}
+.points p {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  color: #ffffff;
+}
+/* end-home-css */

@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Mentorship from "./pages/Mentorship";
@@ -9,7 +8,6 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      <Navbar />
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
