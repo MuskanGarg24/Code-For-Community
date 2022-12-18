@@ -1,5 +1,4 @@
 import React from 'react';
-import '../CSS/styles.css';
 import Team from '../media/team.png';
 
 const Vision = () => {

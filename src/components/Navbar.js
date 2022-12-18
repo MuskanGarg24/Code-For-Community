@@ -6,6 +6,10 @@ export default function Navbar() {
       <Link to='/' className='site-title'>
         CodeForComm
       </Link>
+      <input type="checkbox" id="click"></input>
+      <label for="click" className='menu-btn'>
+        <i className='fas fa-bars'></i>
+      </label>
       <ul>
         <CustomLink to='/about'>About Us</CustomLink>
         <CustomLink to='/blogs'>Blogs</CustomLink>
