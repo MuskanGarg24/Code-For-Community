@@ -1,5 +1,4 @@
 import React from 'react';
-import '../CSS/styles.css';
 import Navbar from '../components/Navbar';
 import Image from '../media/vision.png';
 
@@ -11,6 +10,9 @@ const Header = () => {
                 <div className='header-content'>
                     <h1>Kick Start your <br></br>
                         <span className='gradient-text'>Open Source</span> Journey</h1>
+                    <div className='media-query-image'>
+                        <img src={Image} alt='open-source'></img>
+                    </div>
                     <p>
                         A community to get you started with open source and build your network. <br></br>
                         Get hands on with some cool open source projects and pave your way to boundless opportunities.
